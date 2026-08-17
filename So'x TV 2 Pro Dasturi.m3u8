@@ -1,17 +1,103 @@
 #EXTM3U
-#PLAYLIST:So'x TV 2 Pro Dasturi
+#PLAYLIST:So'x TV 2 Pro
+#PLAYLIST-TYPE:TV
+#LANGUAGE:uz
+#COUNTRY:UZ
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/namuna1.png" group-title="Mahalliy", So'x TV
-http://server.namuna.uz/soxtv/live.m3u8
+# ============================================================
+# 📺 SO'X TV 2
+# ============================================================
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/namuna2.png" group-title="O'zbek", Zo'r TV
-http://server.namuna.uz/zortv/live.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="O'zbek", O'zbekiston 24
-http://server.namuna.uz/uzb24/live.m3u8
+# ============================================================
+# 🇺🇿 O'ZBEKISTON
+# ============================================================
 
-#EXTINF:-1 tvg-logo="" group-title="Kino", Kinokomediya
-http://server.namuna.ru/kino/live.m3u8
+#EXTINF:-1 tvg-id="Uzbekistan" tvg-name="O'zbekiston" tvg-language="uz" tvg-country="UZ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e4/Uzbekistan_TV_logo_2018.png" group-title="🇺🇿 O'ZBEKISTON",O'zbekiston TV
+https://image.mtrk.uz/live/uzbekistan/playlist.m3u8
 
-#EXTINF:-1 tvg-logo="" group-title="Sport", Sport UZ
-http://server.namuna.uz/sport/live.m3u8
+#EXTINF:-1 tvg-id="Yoshlar" tvg-name="Yoshlar" tvg-language="uz" tvg-country="UZ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/22/Yoshlar_TV_logo_2018.png" group-title="🇺🇿 O'ZBEKISTON",Yoshlar TV
+https://image.mtrk.uz/live/yoshlar/playlist.m3u8
+
+#EXTINF:-1 tvg-id="Toshkent" tvg-name="Toshkent" tvg-language="uz" tvg-country="UZ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/98/Toshkent_TV_logo.png" group-title="🇺🇿 O'ZBEKISTON",Toshkent TV
+https://image.mtrk.uz/live/toshkent/playlist.m3u8
+
+
+# ============================================================
+# 📰 YANGILIKLAR
+# ============================================================
+
+#EXTINF:-1 tvg-id="Uzbekistan24" tvg-name="O'zbekiston 24" tvg-language="uz" tvg-country="UZ" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/46/Uzbekistan_24_logo.png" group-title="📰 YANGILIKLAR",O'zbekiston 24
+https://live.ntv.uz/hls/uzb24/index.m3u8
+
+#EXTINF:-1 tvg-id="EuronewsEnglish" tvg-name="Euronews English" tvg-language="en" tvg-country="FR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/a2/Euronews_logo_2016.svg" group-title="📰 YANGILIKLAR",Euronews English
+https://euronews-euronews-world-1-en.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="TRTHaber" tvg-name="TRT Haber" tvg-language="tr" tvg-country="TR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/29/TRT_Haber_logo_2021.svg" group-title="📰 YANGILIKLAR",TRT Haber
+https://tv-trthaber.live.trt.com.tr/master.m3u8
+
+
+# ============================================================
+# ⚽ SPORT
+# ============================================================
+
+
+# ============================================================
+# 🎬 KINO & SERIAL
+# ============================================================
+
+#EXTINF:-1 tvg-id="RakutenActionMovies" tvg-name="Rakuten TV Action Movies" tvg-language="en" tvg-country="GB" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Rakuten_Global_Brand_Logo.svg/440px-Rakuten_Global_Brand_Logo.svg.png" group-title="🎬 KINO & SERIAL",Rakuten TV Action Movies
+https://rakuten-actionmovies-1-eu.rakuten.wurl.tv/playlist.m3u8
+
+#EXTINF:-1 tvg-id="RakutenComedyMovies" tvg-name="Rakuten TV Comedy Movies" tvg-language="en" tvg-country="GB" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Rakuten_Global_Brand_Logo.svg/440px-Rakuten_Global_Brand_Logo.svg.png" group-title="🎬 KINO & SERIAL",Rakuten TV Comedy Movies
+https://rakuten-comedymovies-1-gb.samsung.wurl.com/manifest/1200.m3u8
+
+#EXTINF:-1 tvg-id="RakutenFamily" tvg-name="Rakuten TV Family" tvg-language="en" tvg-country="GB" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Rakuten_Global_Brand_Logo.svg/440px-Rakuten_Global_Brand_Logo.svg.png" group-title="🎬 KINO & SERIAL",Rakuten TV Family
+https://rakuten-family-2-es.samsung.wurl.com/manifest/playlist.m3u8
+
+
+# ============================================================
+# 🎵 MUSIQA
+# ============================================================
+
+
+# ============================================================
+# 👶 BOLALAR
+# ============================================================
+
+
+# ============================================================
+# 🌍 XALQARO
+# ============================================================
+
+#EXTINF:-1 tvg-id="France24English" tvg-name="France 24 English" tvg-language="en" tvg-country="FR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/ba/France_24_logo.svg" group-title="🌍 XALQARO",France 24 English
+https://f24hls-i.akamaihd.net/hls/live/221146/F24_EN_HLS/master.m3u8
+
+#EXTINF:-1 tvg-id="DWEnglish" tvg-name="DW English" tvg-language="en" tvg-country="DE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b1/Deutsche_Welle_logo_2012.svg" group-title="🌍 XALQARO",DW English
+https://dwstream30-live.akamaized.net/hls/live/2015525/dwstream30/index.m3u8
+
+#EXTINF:-1 tvg-id="TRTWorld" tvg-name="TRT World" tvg-language="en" tvg-country="TR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/df/TRT_World_logo.svg" group-title="🌍 XALQARO",TRT World
+https://tv-trtworld.live.trt.com.tr/master.m3u8
+
+#EXTINF:-1 tvg-id="TRT1" tvg-name="TRT 1" tvg-language="tr" tvg-country="TR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/91/TRT_1_logo_2021.svg" group-title="🌍 XALQARO",TRT 1
+https://tv-trt1.live.trt.com.tr/master.m3u8
+
+#EXTINF:-1 tvg-id="NASATV" tvg-name="NASA TV Public" tvg-language="en" tvg-country="US" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg" group-title="🌍 XALQARO",NASA TV Public
+https://nasa-i.akamaihd.net/hls/live/508561/NASA-Public-HD/master.m3u8
+
+
+# ============================================================
+# 🛠 YORDAM
+# ============================================================
+
+#EXTINF:-1 tvg-id="Developer" tvg-name="Dasturchi bilan bog'lanish" tvg-language="uz" tvg-country="UZ" tvg-logo="" group-title="🛠 YORDAM",👨‍💻 Dasturchi — Usmonjon
+https://t.me/usi_421
+
+#EXTINF:-1 tvg-id="TelegramSupport" tvg-name="Telegram texnik yordam" tvg-language="uz" tvg-country="UZ" tvg-logo="" group-title="🛠 YORDAM",📱 Telegram: @usi_421
+https://t.me/usi_421
+
+#EXTINF:-1 tvg-id="ProjectInfo" tvg-name="So'x TV 2 Pro" tvg-language="uz" tvg-country="UZ" tvg-logo="" group-title="🛠 YORDAM",⭐ So'x TV 2 Pro
+https://t.me/usi_421
+
+#EXTINF:-1 tvg-id="Feedback" tvg-name="Taklif va murojaatlar" tvg-language="uz" tvg-country="UZ" tvg-logo="" group-title="🛠 YORDAM",💬 Taklif va murojaatlar
+https://t.me/usi_421
