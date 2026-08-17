@@ -1,0 +1,17 @@
+#EXTM3U
+#PLAYLIST:So'x TV 2 Pro Dasturi
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/namuna1.png" group-title="Mahalliy", So'x TV
+http://server.namuna.uz/soxtv/live.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.imgur.com/namuna2.png" group-title="O'zbek", Zo'r TV
+http://server.namuna.uz/zortv/live.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="O'zbek", O'zbekiston 24
+http://server.namuna.uz/uzb24/live.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Kino", Kinokomediya
+http://server.namuna.ru/kino/live.m3u8
+
+#EXTINF:-1 tvg-logo="" group-title="Sport", Sport UZ
+http://server.namuna.uz/sport/live.m3u8
